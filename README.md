@@ -68,82 +68,83 @@ python downloader.py --name gaze-estimation-adas-0002
 
 - Copy the downloaded models into project folder so that the folder structure as following root tree.(you can remove unused models after you finally select most suitable model for your project)
 
-│   .Instructions.md.swp
-│   Log.log
-│   README.md
-│   requirements.txt
+.
+├───.Instructions.md.swp
+├───Log.log
+├───README.md
+├───requirements.txt
 │
 ├───bin
-│       .gitkeep
-│       demo.mp4
+│   ├───.gitkeep
+│   ├───demo.mp4
 │
 ├───images
-│       pipeline.png
+│   ├───pipeline.png
 │
 ├───models
 │   └───intel
 │       ├───face-detection-adas-binary-0001
 │       │   └───FP32-INT1
-│       │           face-detection-adas-binary-0001.bin
-│       │           face-detection-adas-binary-0001.xml
+│       │           ├───face-detection-adas-binary-0001.bin
+│       │           ├───face-detection-adas-binary-0001.xml
 │       │
 │       ├───gaze-estimation-adas-0002
 │       │   ├───FP16
-│       │   │       gaze-estimation-adas-0002.bin
-│       │   │       gaze-estimation-adas-0002.xml
+│       │   │       ├───gaze-estimation-adas-0002.bin
+│       │   │       ├───gaze-estimation-adas-0002.xml
 │       │   │
 │       │   ├───FP16-INT8
-│       │   │       gaze-estimation-adas-0002.bin
-│       │   │       gaze-estimation-adas-0002.xml
+│       │   │       ├───gaze-estimation-adas-0002.bin
+│       │   │       ├───gaze-estimation-adas-0002.xml
 │       │   │
 │       │   └───FP32
-│       │           gaze-estimation-adas-0002.bin
-│       │           gaze-estimation-adas-0002.xml
+│       │           ├───gaze-estimation-adas-0002.bin
+│       │           ├───gaze-estimation-adas-0002.xml
 │       │
 │       ├───head-pose-estimation-adas-0001
 │       │   ├───FP16
-│       │   │       head-pose-estimation-adas-0001.bin
-│       │   │       head-pose-estimation-adas-0001.xml
+│       │   │       ├───head-pose-estimation-adas-0001.bin
+│       │   │       ├───head-pose-estimation-adas-0001.xml
 │       │   │
 │       │   ├───FP16-INT8
-│       │   │       head-pose-estimation-adas-0001.bin
-│       │   │       head-pose-estimation-adas-0001.xml
+│       │   │       ├───head-pose-estimation-adas-0001.bin
+│       │   │       ├───head-pose-estimation-adas-0001.xml
 │       │   │
 │       │   └───FP32
-│       │           head-pose-estimation-adas-0001.bin
-│       │           head-pose-estimation-adas-0001.xml
+│       │           ├───head-pose-estimation-adas-0001.bin
+│       │           ├───head-pose-estimation-adas-0001.xml
 │       │
 │       └───landmarks-regression-retail-0009
 │           ├───FP16
-│           │       landmarks-regression-retail-0009.bin
-│           │       landmarks-regression-retail-0009.xml
+│           │       ├───landmarks-regression-retail-0009.bin
+│           │       ├───landmarks-regression-retail-0009.xml
 │           │
 │           ├───FP16-INT8
-│           │       landmarks-regression-retail-0009.bin
-│           │       landmarks-regression-retail-0009.xml
+│           │       ├───landmarks-regression-retail-0009.bin
+│           │       ├───landmarks-regression-retail-0009.xml
 │           │
 │           └───FP32
-│                   landmarks-regression-retail-0009.bin
-│                   landmarks-regression-retail-0009.xml
+│                   ├───landmarks-regression-retail-0009.bin
+│                   ├───landmarks-regression-retail-0009.xml
 │
 └───src
-    │   face_detection.py
-    │   facial_landmarks_detection.py
-    │   gaze_estimation.py
-    │   head_pose_estimation.py
-    │   inference.py
-    │   input_feeder.py
-    │   main.py
-    │   mouse_controller.py
+    ├───face_detection.py
+    ├───facial_landmarks_detection.py
+    ├───gaze_estimation.py
+    ├───head_pose_estimation.py
+    ├───inference.py
+    ├───input_feeder.py
+    ├───main.py
+    ├───mouse_controller.py
     │
     └───__pycache__
-            face_detection.cpython-36.pyc
-            facial_landmarks_detection.cpython-36.pyc
-            gaze_estimation.cpython-36.pyc
-            head_pose_estimation.cpython-36.pyc
-            inference.cpython-36.pyc
-            input_feeder.cpython-36.pyc
-            mouse_controller.cpython-36.pyc
+        ├───face_detection.cpython-36.pyc
+        ├───facial_landmarks_detection.cpython-36.pyc
+        ├───gaze_estimation.cpython-36.pyc
+        ├───head_pose_estimation.cpython-36.pyc
+        ├───inference.cpython-36.pyc
+        ├───input_feeder.cpython-36.pyc
+        ├───mouse_controller.cpython-36.pyc
 
 
 ## Demo
