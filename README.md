@@ -68,6 +68,7 @@ python downloader.py --name gaze-estimation-adas-0002
 
 - Copy the downloaded models into project folder so that the folder structure as following root tree.(you can remove unused models after you finally select most suitable model for your project)
 
+```
 .
 ├───.Instructions.md.swp
 ├───Log.log
@@ -146,6 +147,7 @@ python downloader.py --name gaze-estimation-adas-0002
         ├───input_feeder.cpython-36.pyc
         ├───mouse_controller.cpython-36.pyc
 
+```
 
 ## Demo
 
